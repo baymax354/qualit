@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    
+    display: flex; /* coloca os filhos lado a lado */
+}
+
+.cot-rol {
+    height: 98%;
+    width: 20%;
+    background-color: aqua;
+    order: 1; /* aparece primeiro (esquerda) */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20;
+}
+
+#button,cot-rol{
+    background-color: black;
+}
+
+.cot-pr {
+    height: 100%;
+    width: 80%;
+    background-color: aliceblue;
+    order: 2; /* aparece depois (direita) */
+}
