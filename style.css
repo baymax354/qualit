@@ -21,11 +21,14 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20;
+    gap: 12px;
 }
 
-#button,cot-rol{
+.btn{
     background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+    width: 100%;
 }
 
 .cot-pr {
@@ -33,4 +36,9 @@ html, body {
     width: 80%;
     background-color: aliceblue;
     order: 2; /* aparece depois (direita) */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
 }
