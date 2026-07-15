@@ -31,6 +31,10 @@ html, body {
     width: 100%;
 }
 
+
+.cot-dimensional,
+.cot-certificados,
+.cot-desenhos,
 .cot-pr {
     height: 100%;
     width: 80%;
@@ -41,4 +45,14 @@ html, body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
+}
+
+.cot-dimensional{
+    display: none;
+}
+.cot-certificados{
+    display: none;
+}
+.cot-desenhos {
+    display: none;
 }
